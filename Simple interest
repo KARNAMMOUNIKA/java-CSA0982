@@ -1,0 +1,10 @@
+public class SimpleInterestCalculator {
+    public static void main(String[] args) {
+        double principal = 200000;
+        int years = 3;
+        char isSeniorCitizen = 'n';
+        double rateOfInterest = (isSeniorCitizen == 'y') ? 0.12 : 0.10;
+        double simpleInterest = (principal * rateOfInterest * years);
+        System.out.println("Simple Interest: " + simpleInterest);
+    }
+}
